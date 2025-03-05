@@ -1,0 +1,29 @@
+{
+  "name": "project-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodeapp.js", 
+    "dev":"nodemonapp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taramaya-jpg/Project-Setup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taramaya-jpg/Project-Setup/issues"
+  },
+  "homepage": "https://github.com/taramaya-jpg/Project-Setup#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
