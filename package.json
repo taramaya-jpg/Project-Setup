@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "start":"nodeapp.js", 
-    "dev":"nodemonapp.js"
-  },
-  "repository": {
+"scripts": {
+  "start": "node app.js",
+  "dev": "nodemon app.js"
+},
+"repository": {
     "type": "git",
     "url": "git+https://github.com/taramaya-jpg/Project-Setup.git"
   },
@@ -19,9 +19,15 @@
   },
   "homepage": "https://github.com/taramaya-jpg/Project-Setup#readme",
   "dependencies": {
+    "bcryptjs": "^3.0.2",
     "dotenv": "^16.4.7",
     "ejs": "^3.1.10",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "pg": "^8.14.1",
+    "pg-promise": "^11.12.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
